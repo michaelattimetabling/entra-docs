@@ -133,9 +133,9 @@ In this section, you'll enable B.Simon to use single sign-on by granting access 
 
 ## Configure Timetabling Solutions SSO
 
-In this section, you'll populate the relevant SSO values in the Timetabling Solutions Administration Console.
+In this section, you'll populate the relevant SSO values in the Timetabling Solutions Management Portal.
 
-1. In the [Administration Console](https://admin.timetabling.education/), select **5 Settings**, and then select the **SAML SSO** tab.
+1. In the [Management Portal](https://mp.timetabling.education/), select **5 Settings**, and then select the **SAML SSO** tab.
 1. Perform the following steps in the **SAML SSO** section:
  
     ![Screenshot for SSO settings.](./media/timetabling-solutions-tutorial/timetabling-configuration.png)
@@ -155,27 +155,27 @@ In this section, you'll populate the relevant SSO values in the Timetabling Solu
 
 ## Create Timetabling Solutions test user
 
-In this section, you create a user called Britta Simon in the Timetabling Solutions Administration Console. 
+In this section, you create a user called Britta Simon in the Timetabling Solutions Management Portal. 
 
-1. In the [Administration Console](https://admin.timetabling.education/), select **1 Manage Users**, and click **Add**.
+1. In the [Management Portal](https://mp.timetabling.education/), select **1 Manage Users**, and click **Add**.
 2. Enter the mandatory fields **First Name**, **Family Name** and **Email Address**. Add other appropriate values in the non-mandatory fields.
 3. Ensure **Online** is active in Status.
 4. Click **Save and Next**.
 
 
 > [!NOTE]
-> To add the users in the Timetabling Solutions platform. Users must be created and activated before you use single sign-on.
+> To add the users to the Timetabling Solutions platform. Users must be created and activated before you use single sign-on.
 
 ## Test SSO 
 
-In this section, you test your Microsoft Entra single sign-on configuration with following options. 
+In this section, you test your Microsoft Entra single sign-on configuration with the following options. 
 
 * Click on **Test this application**, this will redirect to Timetabling Solutions Sign-On URL where you can initiate the login flow. 
 
-* Go to Timetabling Solutions Sign-On URL directly and initiate the login flow from there.
+* Go to Timetabling Solutions Sign-On URL directly and initiate the login flow.
 
 * You can use Microsoft My Apps. When you click the Timetabling Solutions tile in the My Apps, this will redirect to Timetabling Solutions Sign-On URL. For more information, see [Microsoft Entra My Apps](/azure/active-directory/manage-apps/end-user-experiences#azure-ad-my-apps).
 
 ## Next steps
 
-Once you configure Timetabling Solutions you can enforce session control, which protects exfiltration and infiltration of your organization’s sensitive data in real time. Session control extends from Conditional Access. [Learn how to enforce session control with Microsoft Cloud App Security](/cloud-app-security/proxy-deployment-aad).
+Once you configure Timetabling Solutions you can enforce session control, which protects exfiltration and infiltration of your organization’s sensitive data in real-time. Session control extends from Conditional Access. [Learn how to enforce session control with Microsoft Cloud App Security](/cloud-app-security/proxy-deployment-aad).
